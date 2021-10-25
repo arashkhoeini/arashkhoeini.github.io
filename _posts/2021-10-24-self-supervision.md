@@ -5,7 +5,6 @@ date: 2021-10-24 22:22:00 -0500
 categories: [Tutorial]
 tags: [deep learning, self-supervised]
 image: ssl-header.jpg
-excerpt_separator: <!--show_more-->
 ---
 
 
@@ -16,7 +15,7 @@ Self-supervised learning (SSL) is rapidly closing the gap with supervised method
 
 ![alt text]({{ site.baseurl }}/assets/img/ssl-header.jpg){: style="max-width: 90%" } 
 
-<!--show_more-->
+
 
 [image source](https://www.techslang.com/definition/what-is-self-supervised-learning/)
 
