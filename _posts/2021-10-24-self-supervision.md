@@ -4,7 +4,7 @@ author: Arash Khoeini
 date: 2021-10-24 22:22:00 -0500
 categories: [Blogging, Tutorial]
 tags: [deep learning, self-supervised]
----
+
 excerpt_separator: <!--show_more-->
 ---
 
@@ -14,9 +14,9 @@ excerpt_separator: <!--show_more-->
 ## Introduction
 Self-supervised learning (SSL) is rapidly closing the gap with supervised methods. Very recently, Facebook AI Research (FAIR), one major player in broadening the horizon of self-supervised learning, introduced SEER. SEER is a 1.3B parameter self-supervised model pre-trained on 1B Instagram images that achieves 84.2% top-1 accuracy on ImageNet, comfortably surpassing all existing self-supervised models [paper](https://arxiv.org/pdf/2103.01988.pdf?fbclid=IwAR1tN789vW3hJ2Aokd93SghWDadbFvvAJ2AJ8tWoiUmIuOppkmRZ7aArT58). Other researchers at FAIR trained Self-Supervised Vision Transformers (SSViT) and compared it to fully supervised ViTs and convnets, and found out that SSViTs learn more powerful representations [paper](https://arxiv.org/pdf/2104.14294.pdf). 
 
-![alt text]({{ site.baseurl }}/assets/img/ssl-header.jpg)
+![alt text]({{ site.baseurl }}/assets/img/ssl-header.jpg){: style="max-width: 90%" } 
 <!--show_more-->
-
+[image source](https://www.techslang.com/definition/what-is-self-supervised-learning/)
 In spite of all these recent break-throughs, the main idea behind self-supervision is not really new and it has been around for a while now, only under different names, mostly under unsupervised learning. However, there is a debate that we should stop seeing it as unsupervised, since it is not really “unsupervised” in the essence. In self-supervised learning, we are indeed supervising the model training, but with free and creative supervision signals instead of with human generated one. One very interesting and not much new example is Word2Vec [paper](https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf), where we train a model to predict a word given its surrounding words. This paper came out at ICLR 2013 and the results were considered magical at that time. This paper showed that if you train such a model that tries to predict a word given its few previous and following words, the feature extractor extracts feature vectors with a lot of interesting linear relationships. For example, if we call the feature extractor f(), we can show that f(‘king’) - f(‘man’’) + f(‘woman’) = f(‘queen’). These early results showed self-supervision is fully capable of extracting semantic relationships. 
 
 It is true that supervised learning has been tremendously successful during the past decade, but we all know that we cannot label everything. If we want to move towards a system with generalized knowledge about the world, a system which forms generalized knowledge about the world and relies on its previously acquired background knowledge of how the world works, we need something bigger than supervised learning. We need to build systems which are capable of forming some sort of common sense about the world, just like human babies. As Yann Lecun elegantly put it, this common sense is the ‘dark matter of intelligence’, and he argues that this might be learned through self-supervision [here](https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/).
@@ -56,7 +56,7 @@ The architecture of the network is shown in the above picture. Each parallel net
 
 The newer version of the previous paper [is this paper](https://arxiv.org/pdf/1603.09246.pdf), takes this to another step and use jigsaw puzzle reassembly  problem as their pretext task. Authors argue that solving Jigsaw puzzles can be used to teach a system that an object is made of parts and what these parts are.
 
-![alt text]({{ site.baseurl }}/assets/img/ssl-jigwsaw-tiger.png){: style="max-width: 60%" }
+![alt text]({{ site.baseurl }}/assets/img/ssl-jigsaw-tiger.png){: style="max-width: 60%" }
 
 Above picture shows what they tend to do. Given this tiger photo, they want to randomly extract a 3x3 patch from it, randomize the tile, and train a network capable of predicting the correct location for each tile. This is achieved by 9 parallel CNN-based networks with shared weights. 
 
