@@ -47,7 +47,7 @@ Authors achieve their goal by training two parallel CNN-based networks with shar
 
 The architecture of the network is shown in the above picture. Each parallel network is following the AlexNet architecture as much as possible. The outputs of fc6 is then concatenated together to form the input for fc7. The output layer, fc9, has 8 neurons, each corresponding to one of 8 possible locations. Authors show that taking [PASCAL challenge](https://link.springer.com/article/10.1007/s11263-009-0275-4), their pretrained model beats AlexNet trained from scratch. However, this might not be the most fair comparison since the later one is not using any images outside of the PASCAL dataset, not just any labeled images. 
 
-####Solving a jigsaw puzzle
+#### Solving a jigsaw puzzle
 
 The newer version of the previous paper [is this paper](https://arxiv.org/pdf/1603.09246.pdf), takes this to another step and use jigsaw puzzle reassembly  problem as their pretext task. Authors argue that solving Jigsaw puzzles can be used to teach a system that an object is made of parts and what these parts are.
 
