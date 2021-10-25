@@ -4,7 +4,7 @@ author: Arash Khoeini
 date: 2021-10-24 22:22:00 -0500
 categories: [Tutorial]
 tags: [deep learning, self-supervised]
-
+image: ssl-header.jpg
 excerpt_separator: <!--show_more-->
 ---
 
