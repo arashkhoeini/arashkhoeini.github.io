@@ -11,7 +11,7 @@ We love neural networks! We use them in our phones, our home speaker, our TVs, o
 
 If I train a LeNet on MNIST dataset I can get an accuracy higher than %99 on test data. But what if I deploy this network in a real-world setting, like in a post office, to read zip codes? It will obviously see digits different from what it's used to see, digits from different distributions. For example, it might see a 5, but rotated 90degrees. In this case, our network would predict that it's an 8 and will predict it confidently. In this setting, our neural network simply "doesn't know that it doesn't know" and instead of asking for expert help, it will confidently send the letter to a wrong address and some poor grandmother will never receive her Christmas card! Sad story.
 
-![alt text]({{ site.baseurl }}/assets/img/calibration.png)
+![alt text]({{ site.baseurl }}/assets/img/calibration.png){: style="max-width: 90%" } 
 
 Our ideal neural networks are the types that produce "calibrated uncertainties". A well-calibrated model should be accurate when it is certain about its prediction and indicate high uncertainty when it is likely to be inaccurate. What do we mean here by uncertainty? [In NeurIPS2020 Google AI Brain Team provides a sweet definition](https://slideslive.com/38935801/practical-uncertainty-estimation-outofdistribution-robustness-in-deep-learning). We need neural networks that return distribution over predictions rather than a single prediction. In this case, we can use distribution's variance directly as an uncertainty estimation in regression tasks or use probability of y given x as our confidence. Good uncertainty estimates quantify when we can trust the model's predictions, and when we should hand the control to a human expert. 
 
