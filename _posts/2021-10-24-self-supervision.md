@@ -51,7 +51,7 @@ The architecture of the network is shown in the above picture. Each parallel net
 
 The newer version of the previous paper [is this paper](https://arxiv.org/pdf/1603.09246.pdf), takes this to another step and use jigsaw puzzle reassembly  problem as their pretext task. Authors argue that solving Jigsaw puzzles can be used to teach a system that an object is made of parts and what these parts are.
 
-![alt text]({{ site.baseurl }}/ssl-jigwsaw-tiger.png)
+![alt text]({{ site.baseurl }}/assets/img/ssl-jigwsaw-tiger.png)
 
 Above picture shows what they tend to do. Given this tiger photo, they want to randomly extract a 3x3 patch from it, randomize the tile, and train a network capable of predicting the correct location for each tile. This is achieved by 9 parallel CNN-based networks with shared weights. 
 
