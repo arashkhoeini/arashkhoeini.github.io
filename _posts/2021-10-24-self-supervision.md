@@ -108,12 +108,12 @@ UniDA naturally opens an opportunity to become creative and look for different f
 
 The idea behind the DANCE method is as follows: target data should either be clustered with source data so to be labelled as one of the known classes, or to form new clusters with other target data points. For this to happen, target points should either be pushed towards the current class prototypes or to get closer to the other data points. This can happen if we first define a similarity distributation for each data point, where p_ij shows how similar latent representation of point i is to F_j, where F_j is latent representation for either a class prototype or a target example. Then we can minimize the entropy of this distribution, so that we push our target latent representation towards F_j. 
 
-![alt text]({{ site.baseurl }}/assets/img/ssl-dance-nc-1.png){: style="max-width: 70%" }
-![alt text]({{ site.baseurl }}/assets/img/ssl-dance-nc-2.png){: style="max-width: 50%" }
-![alt text]({{ site.baseurl }}/assets/img/ssl-dance-nc-3.png){: style="max-width: 50%" }
+![alt text]({{ site.baseurl }}/assets/img/ssl-dance-nc-1.png){: style="max-width: 50%" }
+![alt text]({{ site.baseurl }}/assets/img/ssl-dance-nc-2.png){: style="max-width: 40%" }
+![alt text]({{ site.baseurl }}/assets/img/ssl-dance-nc-3.png){: style="max-width: 40%" }
 
 They call this term Neighbourhood Clustering. 
 
 The other term authors propose also uses entropy, but this time to align some of them with “known” source categories while keeping the “unknown” target samples far from the source. This loss term is called Entropy separation loss and we minimize it only if it's distance from half of the max entorpy (rho) is larger than some threshold m. Please note that p is the classification output for a target sample.
 
-![alt text]({{ site.baseurl }}/assets/img/ssl-dance-nc-3.png){: style="max-width: 70%" }
+![alt text]({{ site.baseurl }}/assets/img/ssl-dance-nc-3.png){: style="max-width: 50%" }
