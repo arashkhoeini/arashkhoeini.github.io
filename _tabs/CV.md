@@ -4,11 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-
-# Arash Khoeini
-
-## curriculum vitae
-
 ## Education
 
 ```
