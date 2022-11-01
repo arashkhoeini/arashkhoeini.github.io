@@ -11,7 +11,7 @@ image: ssl-header.jpg
 
 # Collapsing Solutions in Self-supervised Learning
 
-[In the previous post I explained how self-supervised learning has been established as a decent method for unsupervised representation learning. I dicussed pre-text task learning, contrastive learning, and touched upon a few non-contrastive learning methods.]({% post_url 2022-10-24-self-supervision %})
+[In the previous post I explained how self-supervised learning has been established as a decent method for unsupervised representation learning. I dicussed pre-text task learning, contrastive learning, and touched upon a few non-contrastive learning methods.]({% post_url 2021-10-24-self-supervision %})
 
 In this post, I aim to dig deeper into similarity learning. Similarity learning is a more general self-supervised learning approach and includes both contrastive and non-contrastive methods. In particular, I talk about collapsing solutions, what they are, and how different methods use different strategies to avoid these collapsing solutions.
 
