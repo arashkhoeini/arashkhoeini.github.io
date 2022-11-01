@@ -5,34 +5,35 @@
   If the number of TAB files has changed, the following variable is required.
   And it must be defined before `@import`.
 */
-$tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
+$tab-count:{{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 
 @import "{{ site.theme }}";
 
 /* append your custom style below */
 
    /*! div style */
-   .image-gallery {
+.image-gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+  justify-content: center;
+  padding: 4px;
+}
+
+.box {
+    flex-basis: 25%;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
-    justify-content: center;
-    padding: 4px;
-  }
+    padding: 10px;
+    margin: 2px;
+}
 
-  .box {
-      flex-basis: 25%;
-      width: 100%;
-      padding: 10px;
-      margin: 2px;
-  }
-
-  .img-gallery {
-	width: 100%;
-  height: 200px;
-	object-fit: cover;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out;
-  &:hover {
-    transform: scale(1.05);
-  }
+.img-gallery {
+width: 100%;
+height: 200px;
+object-fit: cover;
+transform: scale(1);
+transition: all 0.3s ease-in-out;
+}
+&:hover {
+  transform: scale(1.05);
+}
