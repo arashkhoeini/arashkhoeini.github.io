@@ -1,7 +1,7 @@
 ---
 title: CV
 icon: fas fa-info-circle
-order: 4
+order: 3
 ---
 
 ## Education
