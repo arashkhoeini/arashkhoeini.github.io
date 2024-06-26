@@ -4,6 +4,6 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-In addition to science, I enjoy capturing moments around me by taking pictures. I enjoy both digital and analogue photography. 
+Here is a random selection of photos I have taken. I regularly update this gallery with new images whenever I capture something I truly love.
 
 {% include my-gallery.html folder="gallery" %}
