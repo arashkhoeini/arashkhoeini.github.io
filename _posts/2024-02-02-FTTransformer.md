@@ -8,8 +8,6 @@ tags: [deep learning, transformers, tabular datasets]
 image:  fttransformer.jpg
 ---
 
-# Exploring the FTTransformer: Revolutionizing Deep Learning for Tabular Data
-
 ## Introduction
 
 If you follow my blog, you’ve probably noticed my keen interest in deep learning for tabular data. It’s not because I find tasks like predicting housing prices fascinating—I don’t! My passion lies in the potential of machine learning to revolutionize personalized medicine. Imagine using a patient’s unique genomic data to provide accurate diagnoses and prognoses. Human genomics is a vast, complex field that exceeds our current understanding. That’s where machines come in—they can tackle these challenges that humans alone can’t fully grasp. Genomic data, with its high-dimensional complexity, often stumps traditional machine learning methods like decision trees. That’s why I advocate for deep learning in tabular data, and why I’m excited to introduce a transformer-based architecture designed specifically for tabular datasets.
