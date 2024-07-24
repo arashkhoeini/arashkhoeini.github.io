@@ -1,5 +1,3 @@
-# The Bitter Truth About AI: Why Human Ingenuity Often Loses to Computation
-
 ---
 layout: post
 title: The Bitter Truth About AI; Why Human Ingenuity Often Loses to Computation
