@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Prior to Posterior: A Guide to Bayesian Inference"
-date: 2026-03-02
+date: 2026-04-03
 categories: [machine-learning, bayesian-inference]
 math: true
 ---
