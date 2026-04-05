@@ -7,16 +7,48 @@ order: 3
 ## Education
 
 ```
-Sep 2019 - Sep 2023 Ph.D. in Computer Science , Simon Fraser University , Burnaby, BC, Canada, GPA:3.84/4.
-Sep 2016 - Jun 2019 M.Sc. in Computer Science , University of Tehran , Tehran, Iran, GPA 3.48/4 (2nd Rank).
-Sep 2010 - Dec 2015 Bachelor of Computer Engineering , Kharazmi University , Tehran, Iran.
+2019 - 2026 Ph.D. in Computer Science , Simon Fraser University , Burnaby, BC, Canada.
+2016 - 2019 M.Sc. in Computer Science , University of Tehran , Tehran, Iran.
 ```
+
+## Experiences
+
+```
+Nov 2025 - Present, Machine learning Research Engineer at RBC Borealis, Vancouver, Canada
+Jan 2023 - Sep 2023, Machine Learning Reserch Intern at Terramera, Vancouver, Canada
+Jul 2015 - Dec 2017, Software Engineer at ToMan Payments, Tehran, Iran
+Aug 2013 - Dec 2017,  Software Engineer at Zoraq, Tehran, Iran
+```
+<!-- - Contributed to the implementation of the payment processing system as well as integrating
+the core services, and the user interface.
+- Extensively used Python, Java, and GitLab code management ecosystem. -->
+
+
+<!-- - Led the development of mobile applications.
+- Worked on continuous integration of the backend services and the interfaces.
+- Most tasks used Java and Jenkins. -->
+
+## Publications and Manuscripts
+- A. Khoeini, Sh. Peng, M. Ester, "Informed Augmentation Selection Improves Tabular Contrastive Learning", 2025, PAKDD
+
+- A. Khoeini, F. Sar, Y. Lin, C. Collins, M. Ester, "scMUSCL: Multi-Source Transfer Learning for Clustering scRNA-seq
+Data", 2025, Bioinformatics
+
+- A. Khoeini, O. Snow, A. Rozek, M. Ester, "Label Efficient Plant Damage Estimation Using Pixel-Level", preprint
+
+- A. Khoeini, S. Haratizadeh, E. Hoseinzade, "Representation Extraction and Deep Neural
+Recommendation for Collaborative Filtering", 2019, preprint available at arxiv.org
+
+- E Hoseinzade, S. Haratizadeh, A. Khoeini, "HT-CNNpred: CNN-based Stock Market
+Prediction Using Hierarchy Training and Universal Predictor", 2020, preprint available at
+arxiv.org
+
 ## Skills
 
 ### Research Interests
 
 ```
-Transfer Learning, Self-supervised Learning, Causal Learning, Bioinformatics
+DL for Tabular Data, Self-supervised Learning, Causal Learning, LLMs
 ```
 ### Programming Languages
 ```
@@ -26,55 +58,7 @@ Python, Java
 ```
 PyTorch, Keras, Git, Spark
 ```
-## Experiences
 
-### Research Assistant
-
-```
-Sep 2019 - Present, Simon Fraser University, supervised by Prof. Martin Ester
-```
-- Developed a novel transfer-learning-based method that incorporates domain knowledge
-into a deep neural network in order to find cell clusters using scRNA-seq data.
-- Developed a multi-view deep neural network and trained it on over 1 million Windows
-binary software which achieved over 95% accuracy in malware detection. Collaboration with
-Huawei.
-Sep 2017 - Jun 2019 **University of Tehran** , supervised by Dr. Saman Haratizadeh
-- Designed a recommendation method to extract global user and item features in order to
-predict user-item like/dislike relations.
-- Designed a deep learning approach for extracting latent representations of users and items
-from sparse rating matrices using auxiliary tasks.
-
-### Software Engineer
-
-```
-Jul 2015 - Dec 2017, Software Engineer @ ToMan Payments, Tehran, Iran
-```
-- Contributed to the implementation of the payment processing system as well as integrating
-the core services, and the user interface.
-- Extensively used Python, Java, and GitLab code management ecosystem.
-Aug 2013 - Dec 2017 **Software Engineer** @ Zoraq, Tehran, Iran
-- Led the development of mobile applications.
-- Worked on continuous integration of the backend services and the interfaces.
-- Most tasks used Java and Jenkins.
-
-### Teacher Assistant
-
-```
-Sep 2017 - Present, Machine Learning, Data Mining
-```
-- Teaching assistant for Data Mining, Machine Learning, and Database Systems courses for
-several semesters.
-
-## Publications and Manuscripts
-
-- A. Khoeini, M. Ester, "scMUSCL: Multi-Source Transfer Learning for Clustering scRNA-seq
-Data", 2022, manuscript
-
-- A. Khoeini, S. Haratizadeh, E. Hoseinzade, "Representation Extraction and Deep Neural
-Recommendation for Collaborative Filtering", 2019, preprint available at arxiv.org
-- E Hoseinzade, S. Haratizadeh, A. Khoeini, "HT-CNNpred: CNN-based Stock Market
-Prediction Using Hierarchy Training and Universal Predictor", 2020, preprint available at
-arxiv.org
 
 ## Honors and Awards
 
